@@ -1,1 +1,33 @@
-/* your code */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Ensure rounded corners are visible */
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.styled-table thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
